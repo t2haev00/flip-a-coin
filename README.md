@@ -6,8 +6,9 @@
 - First developed a CLI version, then started to create this with HTTP methods and endpoints.
 
 ## How to play? 
-Play by HTTPS methods, all endpoints return but functions are not fully implemented to all, in some there is just print statements.
+Play by HTTPS methods, however all endpoints return something, but functions are not fully implemented to all of them, in some there is just print statements.
 
+You can modify part with YOURNAMEHERE and YOUROPPONENT
 CREATE TWO PLAYERS
 curl -X POST http://localhost:8080/coinflip/player?name=YOURNAMEHERE
 curl -X POST http://localhost:8080/coinflip/player?name=YOUROPPONENT
